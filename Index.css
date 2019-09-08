@@ -1,0 +1,88 @@
+/* Index CSS Template */
+
+/* Image Formats */
+    #img1 {
+        max-width: 200px;
+        height:auto;
+    }
+
+    /* Image Gallery .div CSS */
+    div.gallery {
+        border: 1px solid #ccc;
+    }
+    
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+    
+    div.gallery img {
+        width: 150px;
+        height: auto;
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+    }
+    
+    @media only screen and (max-width: 700px) {
+        .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .responsive {
+        width: 100%;
+        }
+    }
+    
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+/* End Image Formats */
+
+/* Text Formats */
+    /* Element defaults */
+    p {
+        /* paragraph centering */
+        text-align: center;
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        /* header centering */
+        text-align: center;
+    }
+    /* class element defaults */
+    .left{
+        /* any element calling class center */
+        text-align: left;
+    }
+/* End Text Formats */
+
+/* Button Formats */
+    #div1,
+    #div2 {
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    }
+
+/* End Button Formats */
